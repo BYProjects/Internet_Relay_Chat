@@ -1,0 +1,27 @@
+# Internet Relay Chat 
+
+-- Description --
+
+The Atlas est une application web qui permet à plusieurs utilisateurs de discuter par le biais de websocket.io
+
+-- Préréquis --
+
+- Node.js installé
+
+-- Installation --
+
+1. Télécharger le ZIP du projet et l'extraire dans un dossier de votre choix.
+
+2. **ATTENTION** La commande suivante : "npm install" est à réalisé dans les deux dossiers suivants :
+-/*votre dossier IRC*/front
+-/*votre dossier IRC*/server
+
+-- Execution --
+
+1. Dans le dossier /server, ouvrez le terminal et entrez "nodemon server.js" (sans les guillemets), exécutez la commande
+
+2. Dans le dossier /front, ouvrez le terminal et entrez "npm run start" (sans les guillemets), exécutez la commande
+
+3. Dans la fenêtre ouverte à l'éxécution de "npm run start", entrer le pseudo et valider le 2 fois (bug à corriger)
+
+4. Vous pouvez simuler l'arrivé et l'intéractions entre utilisateurs en ouvrant une nouvelle fenêtre dans votre navigateurs à la même adresse "http://localhost:3000"
